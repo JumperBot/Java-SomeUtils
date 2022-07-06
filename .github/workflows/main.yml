@@ -1,0 +1,23 @@
+name: Directory_Maintainer
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: awalsh128/cache-apt-pkgs-action@v1.0.1
+        with:
+          packages: openjdk-11-jdk tree
+      - name: You know what it does!
+        run: |
+          cd $GITHUB_WORKSPACE
+          java DirectoryMaintainer.java
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -a -m ":memo: Maintaining Directory Tree"
+          git push

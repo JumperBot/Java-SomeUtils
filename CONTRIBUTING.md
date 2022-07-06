@@ -32,16 +32,17 @@ Should be automatically updated (theoretically) after every commit.
 <summary>&nbsp&nbsp&nbsp └── Repository</summary>
 
 ```shell
-     └── CODE_OF_CONDUCT.md
+     ├── CONTRIBUTING.md
+     ├── DirectoryMaintainer.java
      ├── LICENSE
      ├── README.md
      └── SomeUtils
-       ├── ProgressBar
-       │   ├── ProgressBar.class
-       │   └── ProgressBar.java
-       └── Timer
-         ├── Timer.class
-         └── Timer.java
+         ├── ProgressBar
+         │   ├── ProgressBar.class
+         │   └── ProgressBar.java
+         └── Timer
+             ├── Timer.class
+             └── Timer.java
 ```
 
 </details>
