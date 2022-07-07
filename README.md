@@ -82,5 +82,8 @@ After getting access to **"the"** code, import using:
 
 [![Directory_Maintainer](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/main.yml/badge.svg)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/main.yml)
 
-- Failling ​ ​ = Directory Trees the same, no need to commit.
-- Success = Directory Trees different, need to maintain.
+|Status|Definition|
+|---|---|
+|failling|Directory Trees the same, no need to commit.|
+|passing|Directory Trees different, need to maintain.|
+|no status|You accidentally turned your internet connection off.|
