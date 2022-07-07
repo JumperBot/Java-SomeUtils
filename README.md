@@ -56,3 +56,12 @@ After getting access to **"the"** code, import using:
   - Initiate a Pull Request.
   - Feel good about it.
   - Go back to *"work"*.
+
+---
+
+## Badge(s)
+
+[![Directory_Maintainer](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/main.yml/badge.svg)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/main.yml)
+
+- Failling ​ ​ = Directory Trees the same, no need to commit.
+- Success = Directory Trees different, need to maintain.
