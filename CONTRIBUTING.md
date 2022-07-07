@@ -45,6 +45,8 @@ Should be automatically updated (theoretically) after every commit.
          │   ├── ProgressBar.class
          │   └── ProgressBar.java
          └── Timer
+             ├── Timer$1.class
+             ├── Timer$TimerWatcher.class
              ├── Timer.class
              └── Timer.java
 ```
