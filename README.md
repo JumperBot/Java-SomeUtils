@@ -1,8 +1,12 @@
-# Java-SomeUtils
+# Java-SomeUtils [![Directory_Maintainer](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/main.yml/badge.svg)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/main.yml)
+
+<img src="./Logo.apng" width="50%" alt="Whoops! You're device/website doesn't support .apng file formats!"></img>
+
+#
 
 ### **"Some" Utilities you can use for your projects "*freely*"!**
 
----
+#
 
 **Community Contribution** is *welcome* in this repository.
 
@@ -13,8 +17,8 @@ If not for *personal use*, you may still use this but your program must include 
 ---
 
 ## **How To Use:**
-
-**Option 1:**
+<details>
+<summary><b>Option 1:</b></summary>
 
 ```shell
   git clone https://github.com/JumperBot/SomeUtils.git
@@ -22,14 +26,22 @@ If not for *personal use*, you may still use this but your program must include 
   cp ~/SomeUtils/SomeUtils/NeededUtility/NeededUtility.class /Your/Project/Before/src/Directory/
 ```
 
-**Option 2:**
+</details>
+<details>
+<summary><b>Option 2:</b></summary>
+
  - Go to: https://github.com/JumperBot/SomeUtils .
  - Click the "Code" drop-down button.
  - Click on the "Download ZIP button".
  - Get what you want and what you need (including the license).
 
- **Option 3:**
+</details>
+<details>
+<summary><b>Option 3:</b></summary>
+
   - Do what you want just to get access to this.
+
+</details>
 
 After getting access to **"the"** code, import using:
 
@@ -41,7 +53,9 @@ After getting access to **"the"** code, import using:
 
 ## But I Can't Find What I Need!
 
-**Option 1:**
+<details>
+<summary><b>Option 1:</b></summary>
+
   - Be disappointed.
   - Leave the website.
   - Be selfish.
@@ -49,13 +63,18 @@ After getting access to **"the"** code, import using:
   - Keep it for yourself.
   - Go back to **"work"**.
 
-**Option 2**
+</details>
+<details>
+<summary><b>Option 2:</b></summary>
+
   - Be a *"good"* community member.
-  - Clone the repository.
+  - Clone or Fork the repository.
   - Write the code.
   - Initiate a Pull Request.
   - Feel good about it.
+  - I'll scratch my head and **coughs** format the code.
   - Go back to *"work"*.
+</details>
 
 ---
 
