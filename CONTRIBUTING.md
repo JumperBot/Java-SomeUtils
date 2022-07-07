@@ -36,6 +36,7 @@ Should be automatically updated (theoretically) after every commit.
      ├── CONTRIBUTING.md
      ├── DirectoryMaintainer.java
      ├── LICENSE
+     ├── Logo.apng
      ├── README.md
      └── SomeUtils
          ├── DynamicArray
