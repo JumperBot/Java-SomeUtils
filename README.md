@@ -1,4 +1,4 @@
-# SomeUtils
+# Java-SomeUtils
 
 ### **"Some" Utilities you can use for your projects "*freely*"!**
 
