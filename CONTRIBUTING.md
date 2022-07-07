@@ -38,6 +38,9 @@ Should be automatically updated (theoretically) after every commit.
      ├── LICENSE
      ├── README.md
      └── SomeUtils
+         ├── DynamicArray
+         │   ├── DynamicArray.class
+         │   └── DynamicArray.java
          ├── ProgressBar
          │   ├── ProgressBar.class
          │   └── ProgressBar.java
