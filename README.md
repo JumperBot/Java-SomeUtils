@@ -1,4 +1,4 @@
-# Java-SomeUtils [![Directory_Maintainer](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/main.yml/badge.svg)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/main.yml)
+# Java-SomeUtils [![Directory_Maintainer](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/main.yml/badge.svg)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/main.yml) [![Code_Checker](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/code_checker.yml/badge.svg)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/code_checker.yml)
 
 <img src="./Logo.apng" width="50%" alt="Whoops! You're device/website doesn't support .apng file formats!"></img>
 
@@ -86,4 +86,12 @@ After getting access to **"the"** code, import using:
 |---|---|
 |failling|Directory Trees the same, no need to commit.|
 |passing|Directory Trees different, need to maintain.|
+|no status|You accidentally turned your internet connection off.|
+
+[![Code_Checker](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/code_checker.yml/badge.svg)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/code_checker.yml)
+
+|Status|Definition|
+|---|---|
+|failling|Somebody better check that code before it explodes!|
+|passing|We're all good around here.|
 |no status|You accidentally turned your internet connection off.|
