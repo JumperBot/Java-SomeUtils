@@ -1,9 +1,13 @@
 name: Code_Checker
 on:
   push:
-    branches: [ "master" ]
+    paths:
+      - "**.java"
+      - "**.class"
   pull_request:
-    branches: [ "master" ]
+    paths:
+      - "**.java"
+      - "**.class"
   workflow_dispatch:
 jobs:
   check-quality:
