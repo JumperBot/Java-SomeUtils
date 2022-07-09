@@ -1,12 +1,20 @@
-# Java-SomeUtils [![Directory_Maintainer](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/main.yml/badge.svg)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/main.yml) [![Code_Checker](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/code_checker.yml/badge.svg)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/code_checker.yml)
+<div align="center">
+
+# Java-SomeUtils
+
+[![Directory_Maintainer](https://badgen.net/runkit/jumperbot/directory-maintainer-badge/6.0.0?icon=deepscan&labelColor=green)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/main.yml)
+[![Code_Checker](https://badgen.net/runkit/jumperbot/code-checker-badge/2.0.0?icon=awesome&labelColor=00BB00)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/code_checker.yml)
+---
 
 <img src="./Logo.apng" width="50%" alt="Whoops! You're device/website doesn't support .apng file formats!"></img>
 
-#
+---
 
-### **"Some" Utilities you can use for your projects "*freely*"!**
+### **"Some" Utilities you can use for your `Java` projects "*freely*"!**
 
-#
+</div>
+
+---
 
 **Community Contribution** is *welcome* in this repository.
 
@@ -75,23 +83,3 @@ After getting access to **"the"** code, import using:
   - I'll scratch my head and **coughs** format the code.
   - Go back to *"work"*.
 </details>
-
----
-
-## Badge(s)
-
-[![Directory_Maintainer](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/main.yml/badge.svg)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/main.yml)
-
-|Status|Definition|
-|---|---|
-|failling|Directory Trees the same, no need to commit.|
-|passing|Directory Trees different, need to maintain.|
-|no status|You accidentally turned your internet connection off.|
-
-[![Code_Checker](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/code_checker.yml/badge.svg)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/code_checker.yml)
-
-|Status|Definition|
-|---|---|
-|failling|Somebody better check that code before it explodes!|
-|passing|We're all good around here.|
-|no status|You accidentally turned your internet connection off.|
