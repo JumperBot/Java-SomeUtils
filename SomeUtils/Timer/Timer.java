@@ -9,33 +9,34 @@ public class Timer{
       java.lang.Thread.sleep(1000);
     }catch(Exception e){}
     System.out.println("Time elapsed in nanoseconds: "+timer.getTimeElapsed());
-    System.out.println("Time elapsed in milliseconds: "+timer.getTimeElapsed(timer.millis));
-    System.out.println("Time elapsed in seconds: "+timer.getTimeElapsed(timer.seconds));
+    System.out.println("Time elapsed in milliseconds: "+timer.getTimeElapsed(Timer.millis));
+    System.out.println("Time elapsed in seconds: "+timer.getTimeElapsed(Timer.seconds));
     System.out.println("----------\n");
+    System.out.println("Timer stopped | Time elapsed | Time left\n");
     timer.setWatcher(new Timer.TimerWatcher(){
       public void hasStopped(boolean stopped){
-        System.out.print("Timer stopped: "+stopped+" | ");
+        System.out.print(stopped+"     | ");
       }
       public void timeElapsed(long nano, long millis, long seconds){
-        System.out.print("Time elapsed in nanoseconds: "+nano+" | ");
-        System.out.print("Time elapsed in milliseconds: "+millis+" | ");
-        System.out.print("Time elapsed in seconds: "+seconds+" | ");
+        System.out.print(nano+", ");
+        System.out.print(millis+", ");
+        System.out.print(seconds+" | ");
       }
       public void timeLeft(long timeLeft){
-        System.out.print("Time left: "+timeLeft+"\r");
+        System.out.print(timeLeft+"\r");
       }
     });
     //Block the thread for 5 seconds!
-    timer.stopAfter(5, timer.seconds);
+    timer.stopAfter(5, Timer.seconds);
     //So that our watcher won't go to waste.
     System.out.println();
   }
   //The actual class!
   //Stopwatch
   long start=System.nanoTime();
-  public final int millis=0;
-  public final int seconds=1;
-  public final int nanos=2;
+  public final static int millis=0;
+  public final static int seconds=1;
+  public final static int nanos=2;
   public void start(){
     start=System.nanoTime();
   }
