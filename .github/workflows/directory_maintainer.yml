@@ -2,8 +2,12 @@ name: Directory_Maintainer
 on:
   push:
     branches: [ "master" ]
+    paths-ignore:
+      - ".github/*"
   pull_request:
     branches: [ "master" ]
+    paths-ignore:
+      - ".github/*"
 jobs:
   build:
     runs-on: ubuntu-latest
