@@ -39,17 +39,17 @@ Should be automatically updated (theoretically) after every commit.
      ├── Logo.apng
      ├── README.md
      └── SomeUtils
+         ├── Clock
+         │   ├── Timer$1.class
+         │   ├── Timer$TimerWatcher.class
+         │   ├── Timer.class
+         │   └── Timer.java
          ├── DynamicArray
          │   ├── DynamicArray.class
          │   └── DynamicArray.java
-         ├── ProgressBar
-         │   ├── ProgressBar.class
-         │   └── ProgressBar.java
-         └── Timer
-             ├── Timer$1.class
-             ├── Timer$TimerWatcher.class
-             ├── Timer.class
-             └── Timer.java
+         └── ProgressBar
+             ├── ProgressBar.class
+             └── ProgressBar.java
 ```
 
 </details>
