@@ -38,18 +38,24 @@ Should be automatically updated (theoretically) after every commit.
      ├── LICENSE
      ├── Logo.apng
      ├── README.md
-     └── SomeUtils
-         ├── Clock
-         │   ├── Timer$1.class
-         │   ├── Timer$TimerWatcher.class
-         │   ├── Timer.class
-         │   └── Timer.java
-         ├── DynamicArray
-         │   ├── DynamicArray.class
-         │   └── DynamicArray.java
-         └── ProgressBar
-             ├── ProgressBar.class
-             └── ProgressBar.java
+     ├── build
+     │   └── SomeUtils
+     │       ├── Clock
+     │       │   ├── Timer$1.class
+     │       │   ├── Timer$TimerWatcher.class
+     │       │   └── Timer.class
+     │       ├── DynamicArray
+     │       │   └── DynamicArray.class
+     │       └── ProgressBar
+     │           └── ProgressBar.class
+     └── src
+         └── SomeUtils
+             ├── Clock
+             │   └── Timer.java
+             ├── DynamicArray
+             │   └── DynamicArray.java
+             └── ProgressBar
+                 └── ProgressBar.java
 ```
 
 </details>
