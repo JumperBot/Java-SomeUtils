@@ -3,11 +3,11 @@ on:
   push:
     branches: [ "master" ]
     paths-ignore:
-      - ".github/*"
+      - "**/.github/**"
   pull_request:
     branches: [ "master" ]
     paths-ignore:
-      - ".github/*"
+      - "**/.github/**"
 jobs:
   build:
     runs-on: ubuntu-latest
