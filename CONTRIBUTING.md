@@ -41,6 +41,10 @@ Should be automatically updated (theoretically) after every commit.
      ├── build
      │   └── SomeUtils
      │       ├── Clock
+     │       │   ├── Alarm$1.class
+     │       │   ├── Alarm$2.class
+     │       │   ├── Alarm$AlarmWatcher.class
+     │       │   ├── Alarm.class
      │       │   ├── Stopwatch.class
      │       │   ├── Timer$1.class
      │       │   ├── Timer$TimerWatcher.class
@@ -52,6 +56,7 @@ Should be automatically updated (theoretically) after every commit.
      └── src
          └── SomeUtils
              ├── Clock
+             │   ├── Alarm.java
              │   ├── Stopwatch.java
              │   └── Timer.java
              ├── DynamicArray
