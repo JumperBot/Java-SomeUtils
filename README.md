@@ -19,7 +19,7 @@
 
 ---
 
-**Community Contribution** is *welcome* in this repository.
+[**Community Contribution**](./CONTRIBUTING.md) is *welcome* in this repository.
 
 You may use anything in this repository for *personal use*.
 
