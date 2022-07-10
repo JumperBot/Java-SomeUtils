@@ -4,15 +4,6 @@ public class Timer{
   //For demo only!
   public static void main(String[]a){
     Timer timer=new Timer();
-    timer.start();
-    try{
-      java.lang.Thread.sleep(1000);
-    }catch(Exception e){}
-    System.out.println("Time elapsed in nanoseconds: "+timer.getTimeElapsed());
-    System.out.println("Time elapsed in milliseconds: "+timer.getTimeElapsed(Timer.millis));
-    System.out.println("Time elapsed in seconds: "+timer.getTimeElapsed(Timer.seconds));
-    System.out.println("----------\n");
-    System.out.println("Timer stopped | Time elapsed | Time left\n");
     timer.setWatcher(new Timer.TimerWatcher(){
       public void hasStopped(boolean stopped){
         System.out.print(stopped+"     | ");
@@ -32,7 +23,6 @@ public class Timer{
     System.out.println();
   }
   //The actual class!
-  //Stopwatch
   long start=System.nanoTime();
   public final static int millis=0;
   public final static int seconds=1;
@@ -40,10 +30,10 @@ public class Timer{
   public void start(){
     start=System.nanoTime();
   }
-  public long getTimeElapsed(){
+  private long getTimeElapsed(){
     return System.nanoTime()-start;
   }
-  public long getTimeElapsed(final int unit){
+  private long getTimeElapsed(final int unit){
     final long timeElapsed=System.nanoTime()-start;
     return (long)(
       (unit==millis)?timeElapsed/1000000:
@@ -51,8 +41,7 @@ public class Timer{
       timeElapsed
     );
   }
-  //Timer
-  //watcher is private.
+  //Watcher is private.
   TimerWatcher watcher;
   public void stopAfter(final long duration, final int unit){
     //No need to call #start() before #stopAfter().
