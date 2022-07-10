@@ -1,4 +1,4 @@
-package SomeUtils.Timer;
+package SomeUtils.Clock;
 
 public class Timer{
   //For demo only!
