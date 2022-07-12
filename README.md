@@ -1,6 +1,7 @@
 <div align="center">
 
-[![Directory_Maintainer](https://badgen.net/runkit/jumperbot/directory-maintainer-badge/7.0.0?icon=deepscan&labelColor=green)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/directory_maintainer.yml.yml)
+[![Directory_Maintainer](https://badgen.net/runkit/jumperbot/directory-maintainer-badge/7.0.0?icon=deepscan&labelColor=00BB00)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/directory_maintainer.yml)[![Contributors_Lister](https://badgen.net/runkit/jumperbot/contributors-lister-badge/1.0.0?icon=codacy&labelColor=00BB00)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/contributors_lister.yml)
+
 [![Code_Checker](https://badgen.net/runkit/jumperbot/code-checker-badge/2.0.0?icon=awesome&labelColor=00BB00)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/code_checker.yml)
 [![Code_Score](https://api.codiga.io/project/34026/score/svg)](https://app.codiga.io/hub/project/34026/Java-SomeUtils)
 [![Code_Grade](https://api.codiga.io/project/34026/status/svg)](https://app.codiga.io/hub/project/34026/Java-SomeUtils)
