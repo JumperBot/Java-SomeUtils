@@ -1,29 +1,25 @@
 <div align="center">
 
-# Java-SomeUtils
-
 [![Directory_Maintainer](https://badgen.net/runkit/jumperbot/directory-maintainer-badge/7.0.0?icon=deepscan&labelColor=green)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/directory_maintainer.yml.yml)
 [![Code_Checker](https://badgen.net/runkit/jumperbot/code-checker-badge/2.0.0?icon=awesome&labelColor=00BB00)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/code_checker.yml)
-
 [![Code_Score](https://api.codiga.io/project/34026/score/svg)](https://app.codiga.io/hub/project/34026/Java-SomeUtils)
 [![Code_Grade](https://api.codiga.io/project/34026/status/svg)](https://app.codiga.io/hub/project/34026/Java-SomeUtils)
+
 ---
+
+# :sparkles: Java-SomeUtils :rocket:
 
 <img src="./Logo.apng" width="50%" alt="Whoops! You're device/website doesn't support .apng file formats!"></img>
 
 ---
 
-### **"Some" Utilities you can use for your `Java` projects "*freely*"!**
+## **"Some" Utilities you can use for your `Java` projects "*freely*"!**
 
 </div>
 
----
+[**Community Contribution**](./CONTRIBUTING.md) is **welcome** in this repository.
 
-[**Community Contribution**](./CONTRIBUTING.md) is *welcome* in this repository.
-
-You may use anything in this repository for *personal use*.
-
-If not for *personal use*, you may still use this but your program must include the <a href="./LICENSE">license</a>.
+You may **use anything** in this repository as long as you include the [license](./LICENSE) that is.
 
 ---
 
@@ -86,3 +82,9 @@ After getting access to **"the"** code, import using:
   - I'll scratch my head and **coughs** format the code.
   - Go back to *"work"*.
 </details>
+
+---
+
+## Contributors
+
+[![Contributors](./CONTRIBUTORS.svg)](./CONTRIBUTORS.svg)

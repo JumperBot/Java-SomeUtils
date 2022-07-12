@@ -69,6 +69,7 @@ Should be automatically updated after every commit.
 ```shell
      ├── CODE_OF_CONDUCT.md
      ├── CONTRIBUTING.md
+     ├── CONTRIBUTORS.svg
      ├── DirectoryMaintainer.java
      ├── LICENSE
      ├── Logo.apng
@@ -86,8 +87,10 @@ Should be automatically updated after every commit.
      │       │   └── Timer.class
      │       ├── DynamicArray
      │       │   └── DynamicArray.class
-     │       └── ProgressBar
-     │           └── ProgressBar.class
+     │       ├── ProgressBar
+     │       │   └── ProgressBar.class
+     │       └── TerminalMap
+     │           └── TerminalMap.class
      └── src
          └── SomeUtils
              ├── Clock
@@ -96,8 +99,10 @@ Should be automatically updated after every commit.
              │   └── Timer.java
              ├── DynamicArray
              │   └── DynamicArray.java
-             └── ProgressBar
-                 └── ProgressBar.java
+             ├── ProgressBar
+             │   └── ProgressBar.java
+             └── TerminalMap
+                 └── TerminalMap.java
 ```
 
 ## Issues

@@ -1,0 +1,20 @@
+name: Contributors_Lister
+on:
+  push:
+    branches: [ "master" ]
+  pull_request:
+    branches: [ "master" ]
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: wow-actions/contributors-list@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          svgPath: CONTRIBUTORS.svg
+          round: true
+          affiliation: all
+          includeBots: true
+          userNameHeight: 20
+          commitMessage: ":memo: Updated Contributors List"
