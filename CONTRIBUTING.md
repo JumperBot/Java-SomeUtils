@@ -69,7 +69,6 @@ Should be automatically updated after every commit.
 ```shell
      ├── CODE_OF_CONDUCT.md
      ├── CONTRIBUTING.md
-     ├── CONTRIBUTORS.svg
      ├── DirectoryMaintainer.java
      ├── LICENSE
      ├── Logo.apng

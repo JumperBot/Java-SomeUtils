@@ -1,10 +1,19 @@
 <div align="center">
 
-[![Directory_Maintainer](https://badgen.net/runkit/jumperbot/directory-maintainer-badge/7.0.0?icon=deepscan&labelColor=00BB00)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/directory_maintainer.yml)[![Contributors_Lister](https://badgen.net/runkit/jumperbot/contributors-lister-badge/1.0.0?icon=codacy&labelColor=00BB00)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/contributors_lister.yml)
+[![Directory_Maintainer](https://badgen.net/runkit/jumperbot/directory-maintainer-badge/7.0.0?icon=deepscan&labelColor=00BB00&cache=600)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/directory_maintainer.yml)
+[![Code_Checker](https://badgen.net/runkit/jumperbot/code-checker-badge/2.0.0?icon=awesome&labelColor=00BB00&cache=600)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/code_checker.yml)
 
-[![Code_Checker](https://badgen.net/runkit/jumperbot/code-checker-badge/2.0.0?icon=awesome&labelColor=00BB00)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/code_checker.yml)
+[![MIT_License](https://img.shields.io/badge/License-MIT-dark_green.svg)](./LICENSE)
 [![Code_Score](https://api.codiga.io/project/34026/score/svg)](https://app.codiga.io/hub/project/34026/Java-SomeUtils)
 [![Code_Grade](https://api.codiga.io/project/34026/status/svg)](https://app.codiga.io/hub/project/34026/Java-SomeUtils)
+
+[![Commit_Count](https://badgen.net/github/commits/JumperBot/Java-SomeUtils?label=Commits&color=green)](https://github.com/JumperBot/Java-SomeUtils)
+[![Star_Count](https://badgen.net/github/stars/JumperBot/Java-SomeUtils?label=Stars&color=green)](https://github.com/JumperBot/Java-SomeUtils)
+[![Fork_Count](https://badgen.net/github/forks/JumperBot/Java-SomeUtils?label=Forks&color=green)](https://github.com/JumperBot/Java-SomeUtils)
+[![Open_Issues](https://badgen.net/github/open-issues/JumperBot/Java-SomeUtils?label=Open-Issues&color=green)](https://github.com/JumperBot/Java-SomeUtils)
+[![Closed_Issues](https://badgen.net/github/closed-issues/JumperBot/Java-SomeUtils?label=Closed-Issues&color=green)](https://github.com/JumperBot/Java-SomeUtils)
+[![Open_PRs](https://badgen.net/github/open-prs/JumperBot/Java-SomeUtils?label=Open-PRs&color=green)](https://github.com/JumperBot/Java-SomeUtils)
+[![Closed_PRs](https://badgen.net/github/closed-prs/JumperBot/Java-SomeUtils?label=Closed-PRs&color=green)](https://github.com/JumperBot/Java-SomeUtils)
 
 ---
 
@@ -16,76 +25,36 @@
 
 ## **"Some" Utilities you can use for your `Java` projects "*freely*"!**
 
-</div>
+# :arrow_down: **How To Install** :heavy_plus_sign:
 
-[**Community Contribution**](./CONTRIBUTING.md) is **welcome** in this repository.
-
-You may **use anything** in this repository as long as you include the [license](./LICENSE) that is.
-
----
-
-## **How To Use:**
-<details>
-<summary><b>Option 1:</b></summary>
-
-```bash
+```shell
   git clone https://github.com/JumperBot/SomeUtils.git
-  cp "$HOME/SomeUtils/LICENSE" "/Your/Project/Before/src/SomeUtils/"
-  cp "$HOME/SomeUtils/build/SomeUtils/NeededUtility/NeededUtility*.class" "/Your/Project/Before/src/SomeUtils/NeededUtility/"
+  cp $HOME"/Java-SomeUtils/build/*" "/Your/Project/src/"
+  cp $HOME"/Java-SomeUtils/LICENSE" "/Your/Project/src/SomeUtils/"
 ```
 
-</details>
-<details>
-<summary><b>Option 2:</b></summary>
+# :wrench: **How To Use** :hammer:
 
- - Go to: https://github.com/JumperBot/SomeUtils .
- - Click the "Code" drop-down button.
- - Click on the "Download ZIP button".
- - Get what you want and what you need (including the license).
-
-</details>
-<details>
-<summary><b>Option 3:</b></summary>
-
-  - Do what you want just to get access to this.
-
-</details>
-
-After getting access to **"the"** code, import using:
+**Import** a **`class`** using:
 
 ```Java
     import SomeUtils.WhatYouNeed.WhatYouNeed;
 ```
 
----
-
-## But I Can't Find What I Need!
-
-<details>
-<summary><b>Option 1:</b></summary>
-
-  - Be disappointed.
-  - Leave the website.
-  - Be selfish.
-  - Write the code.
-  - Keep it for yourself.
-  - Go back to **"work"**.
-
-</details>
-<details>
-<summary><b>Option 2:</b></summary>
-
-  - Be a *"good"* community member.
-  - Clone or Fork the repository.
-  - Write the code.
-  - Initiate a Pull Request.
-  - Feel good about it.
-  - I'll scratch my head and **coughs** format the code.
-  - Go back to *"work"*.
-</details>
+A **`demo`** is **included** in each class, **check them out** before using them!
 
 ---
 
-## Contributors
+# :building_construction: Contributing :speech_balloon:
 
-[![Contributors](./CONTRIBUTORS.svg)](./CONTRIBUTORS.svg)
+[**Community Contribution**](./CONTRIBUTING.md) is **welcome** in this repository.
+
+You may **use anything** in this repository as long as you include the [**license**](./LICENSE).
+
+---
+
+# :busts_in_silhouette: Contributors :monocle_face:
+
+<img src="https://contrib.rocks/image?repo=JumperBot/Java-SomeUtils"></img>
+
+</div>
