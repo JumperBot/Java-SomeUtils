@@ -19,7 +19,7 @@
 
 # :sparkles: Java-SomeUtils :rocket:
 
-<img src="./Logo.apng" width="50%" alt="Whoops! You're device/website doesn't support .apng file formats!"></img>
+<img src="./.github/Logo.apng" width="50%" alt="Whoops! You're device/website doesn't support .apng file formats!"></img>
 
 ---
 
@@ -47,7 +47,7 @@ A **`demo`** is **included** in each class, **check them out** before using them
 
 # :building_construction: Contributing :speech_balloon:
 
-[**Community Contribution**](./CONTRIBUTING.md) is **welcome** in this repository.
+[**Community Contribution**](./.github/CONTRIBUTING.md) is **welcome** in this repository.
 
 You may **use anything** in this repository as long as you include the [**license**](./LICENSE).
 
