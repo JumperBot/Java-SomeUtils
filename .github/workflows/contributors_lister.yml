@@ -12,9 +12,10 @@ jobs:
       - uses: wow-actions/contributors-list@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          svgPath: CONTRIBUTORS.svg
-          round: true
           affiliation: all
+          commitMessage: ":busts_in_silhouette: Updated Contributors List"
           includeBots: true
-          userNameHeight: 20
-          commitMessage: ":memo: Updated Contributors List"
+          round: true
+          svgPath: CONTRIBUTORS.svg
+          svgWidth: 100%
+          userNameHeight: 40
