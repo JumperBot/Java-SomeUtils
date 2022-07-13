@@ -96,6 +96,7 @@ Should be automatically updated after every commit.
              ├── Clock
              │   ├── Alarm.java
              │   ├── Stopwatch.java
+             │   ├── TimeConverter.java
              │   └── Timer.java
              ├── DynamicArray
              │   └── DynamicArray.java
