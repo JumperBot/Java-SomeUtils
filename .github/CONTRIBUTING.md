@@ -67,11 +67,19 @@ To navigate the repository without wasting time and bandwidth.
 Should be automatically updated after every commit.
 
 ```shell
-     ├── CODE_OF_CONDUCT.md
-     ├── CONTRIBUTING.md
-     ├── DirectoryMaintainer.java
+     ├── .github
+     │   ├── CODE_OF_CONDUCT.md
+     │   ├── CONTRIBUTING.md
+     │   ├── DirectoryMaintainer.java
+     │   ├── ISSUE_TEMPLATE
+     │   │   ├── bug_report.md
+     │   │   └── feature_request.md
+     │   ├── Logo.apng
+     │   ├── pull_request_template.md
+     │   └── workflows
+     │       ├── code_checker.yml
+     │       └── directory_maintainer.yml
      ├── LICENSE
-     ├── Logo.apng
      ├── README.md
      ├── build
      │   └── SomeUtils
