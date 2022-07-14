@@ -1,3 +1,4 @@
+import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileWriter;
@@ -27,16 +28,17 @@ class DirectoryMaintainer{
       builder.append(in.substring(0, in.indexOf("```shell")+8)).append("\n");
       in=in.substring(in.indexOf("```shell")+8);
       in=in.substring(in.indexOf("```"));
-      final Process proc=Runtime.getRuntime().exec("tree -a -I .git "+System.getProperty("user.dir")+"/..");
+      final Process proc=Runtime.getRuntime().exec("tree -a -I .git --noreport "+System.getProperty("user.dir")+"/..");
       try{
         proc.waitFor();
       }catch(Exception e){}
-      try(final Scanner outputReader=new Scanner(new InputStreamReader(proc.getInputStream()))){
+      try(final BufferedReader outputReader=new BufferedReader(new InputStreamReader(proc.getInputStream()))){
         final Pattern dirHeader=Pattern.compile("^/.*");
-        while(outputReader.hasNext()){
-          final String line=dirHeader.matcher(outputReader.nextLine()).replaceAll("");
-          if(!line.isEmpty()&&outputReader.hasNext())
-            builder.append("     ").append(line+"\n");
+        String line;
+        while((line=outputReader.readLine())!=null){
+          line=dirHeader.matcher(line).replaceAll("");
+          if(!line.isEmpty())
+            builder.append("     ").append(line).append("\n");
         }
       }
       builder.append(in);
