@@ -106,10 +106,13 @@ Should be automatically updated after every commit.
              │   ├── Stopwatch.java
              │   └── Timer.java
              ├── DynamicArray
-             │   └── DynamicArray.java
+             │   ├── DynamicArray.java
+             │   └── README.md
              ├── ProgressBar
-             │   └── ProgressBar.java
+             │   ├── ProgressBar.java
+             │   └── README.md
              └── TerminalMap
+                 ├── README.md
                  └── TerminalMap.java
 ```
 
