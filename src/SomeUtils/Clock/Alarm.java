@@ -1,7 +1,5 @@
 package SomeUtils.Clock;
 
-import java.lang.Thread;
-
 public class Alarm{
   //For demo only!
   public static void main(String[]a){

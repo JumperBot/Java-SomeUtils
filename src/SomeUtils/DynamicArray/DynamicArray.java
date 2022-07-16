@@ -1,7 +1,5 @@
 package SomeUtils.DynamicArray;
 
-import java.lang.Object;
-
 public class DynamicArray<T>{
   //Just a demo.
   public static void main(String[]a){

@@ -1,7 +1,5 @@
 package SomeUtils.ProgressBar;
 
-import java.lang.StringBuilder;
-
 public class ProgressBar{
   //Demo, can be removed if you want to!
   public static void main(String[]a){
