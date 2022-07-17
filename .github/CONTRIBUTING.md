@@ -78,6 +78,7 @@ Should be automatically updated after every commit.
      │   ├── pull_request_template.md
      │   └── workflows
      │       ├── code_checker.yml
+     │       ├── delete_workflow_history.yml
      │       └── directory_maintainer.yml
      ├── LICENSE
      ├── README.md
