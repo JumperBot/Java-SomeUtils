@@ -1,0 +1,16 @@
+name: Delete_Workflow_History
+on:
+  schedule:
+    - cron: 0 0 * * 3
+  workflow_dispatch:
+jobs:
+  eradicate:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Delete workflow runs
+      uses: MajorScruffy/delete-old-workflow-runs@v0.1.0
+      with:
+        repository: JumperBot/Java-SomeUtils
+        older-than-seconds: 604800
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
