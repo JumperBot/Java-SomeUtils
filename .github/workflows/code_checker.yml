@@ -18,13 +18,10 @@ jobs:
       id: codiga
       uses: codiga/github-action@master
       with:
+        project_name: "Java-SomeUtils"
         repo_token: ${{ secrets.GITHUB_TOKEN }}
         codiga_api_token: ${{ secrets.CODIGA_API_TOKEN }}
-        force_ref: "none"
         min_quality_grade: "WARNING"
-        min_quality_score: "90"
-        max_defects_rate: "0.1"
-        max_complex_functions_rate: "0.0001"
-        max_long_functions_rate: "0.0001"
-        max_timeout_sec: "600"
-        project_name: "Java-SomeUtils"
+        min_quality_score: "95"
+        max_long_functions_rate: 1
+        max_timeout_sec: "300"
