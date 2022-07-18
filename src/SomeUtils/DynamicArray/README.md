@@ -22,7 +22,7 @@ public DynamicArray();
 public DynamicArray(final T[] newArr);
 ```
 
-Create an instance with or without an initial array.
+Create an instance with or without an array preset.
 
 ---
 
@@ -43,9 +43,22 @@ Get the value for the specified index.
 ---
 
 ```java
+public T[] toArray();
 public T[] getArray();
 ```
 
-Get the fixed-length internal array.
+Get a fixed-length copy of the underlying array.
+
+A much more recommended way of getting the array.
+
+---
+
+```java
+public T[] getRealArray();
+```
+
+Get the actual underlying array.
+
+Not recommended for the length of the array is inflated.
 
 ---
