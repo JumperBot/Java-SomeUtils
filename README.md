@@ -65,6 +65,6 @@ As long as you **don't ignore** the [**`Code Of Conduct`**](https://github.com/J
 
 # :busts_in_silhouette: Contributors :monocle_face:
 
-<img src="https://contrib.rocks/image?repo=JumperBot/Java-SomeUtils"></img>
+[![](https://contrib.rocks/image?repo=JumperBot/Java-SomeUtils)](https://github.com/JumperBot/Java-SomeUtils/graphs/contributors)
 
 </div>
