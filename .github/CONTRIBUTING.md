@@ -95,6 +95,8 @@ Should be automatically updated after every commit.
      │       │   └── Timer.class
      │       ├── DynamicArray
      │       │   └── DynamicArray.class
+     │       ├── Pattern
+     │       │   └── PatternFinder.class
      │       ├── ProgressBar
      │       │   └── ProgressBar.class
      │       └── TerminalMap
@@ -108,6 +110,9 @@ Should be automatically updated after every commit.
              │   └── Timer.java
              ├── DynamicArray
              │   ├── DynamicArray.java
+             │   └── README.md
+             ├── Pattern
+             │   ├── PatternFinder.java
              │   └── README.md
              ├── ProgressBar
              │   ├── ProgressBar.java
