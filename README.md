@@ -1,24 +1,25 @@
 <div align="center">
 
-[![Directory_Maintainer](https://badgen.net/runkit/jumperbot/directory-maintainer-badge/latest?icon=deepscan&labelColor=00BB00&cache=60)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/directory_maintainer.yml)
-[![Code_Checker](https://badgen.net/runkit/jumperbot/code-checker-badge/latest?icon=awesome&labelColor=00BB00&cache=60)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/code_checker.yml)
-
-[![MIT_License](https://img.shields.io/badge/License-MIT-dark_green.svg)](./LICENSE)
-[![Code_Grade](https://api.codiga.io/project/34026/status/svg)](https://app.codiga.io/hub/project/34026/Java-SomeUtils)
-[![Code_Score](https://api.codiga.io/project/34026/score/svg)](https://app.codiga.io/hub/project/34026/Java-SomeUtils)
----
-
 # :sparkles: Java-SomeUtils :rocket:
-
-<img src="./.github/Logo.apng" width="50%" alt="Whoops! You're device/website doesn't support .apng file formats!"></img>
-
----
 
 ## **"Some" Utilities you can use for your `Java` projects "*freely*"!**
 
 \***Coughs**\* *"freely"* in the sense that you still need to include the [**`license`**](./LICENSE) into your program.
 
 Files are **`compiled`** with **`Java-8`** and above, but mostly **`Java-11`**.
+
+---
+
+<img src="./.github/Logo.apng" width="50%" alt="Whoops! You're device/website doesn't support .apng file formats!"></img>
+
+---
+
+[![Directory_Maintainer](https://badgen.net/runkit/jumperbot/directory-maintainer-badge/latest?icon=deepscan&labelColor=00BB00&cache=60)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/directory_maintainer.yml)
+[![Code_Checker](https://badgen.net/runkit/jumperbot/code-checker-badge/latest?icon=awesome&labelColor=00BB00&cache=60)](https://github.com/JumperBot/Java-SomeUtils/actions/workflows/code_checker.yml)
+
+[![MIT_License](https://img.shields.io/badge/License-MIT-dark_green.svg)](./LICENSE)
+[![Code_Grade](https://api.codiga.io/project/34026/status/svg)](https://app.codiga.io/hub/project/34026/Java-SomeUtils)
+[![Code_Score](https://api.codiga.io/project/34026/score/svg)](https://app.codiga.io/hub/project/34026/Java-SomeUtils)
 
 ---
 
