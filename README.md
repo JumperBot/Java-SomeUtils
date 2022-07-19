@@ -34,9 +34,10 @@ You may use any class you can find as long as you include the [**`license`**](./
 # :truck: **How To Install** :arrow_down:
 
 ```shell
-  git clone https://github.com/JumperBot/SomeUtils.git
-  cp $HOME"/Java-SomeUtils/build/*" "/Your/Project/src/"
-  cp $HOME"/Java-SomeUtils/LICENSE" "/Your/Project/src/SomeUtils/"
+  git clone https://github.com/JumperBot/Java-SomeUtils.git $HOME"/Java-SomeUtils/"
+  cp $HOME"/Java-SomeUtils/src/*" "/Your-Project/src/"
+  cp $HOME"/Java-SomeUtils/build/*" "/Your-Project/build/"
+  cp $HOME"/Java-SomeUtils/LICENSE" "/Your-Project/assets/"
 ```
 
 ---
@@ -66,5 +67,7 @@ As long as you **don't ignore** the [**`Code Of Conduct`**](https://github.com/J
 # :busts_in_silhouette: Contributors :monocle_face:
 
 [![](https://contrib.rocks/image?repo=JumperBot/Java-SomeUtils)](https://github.com/JumperBot/Java-SomeUtils/graphs/contributors)
+
+---
 
 </div>
