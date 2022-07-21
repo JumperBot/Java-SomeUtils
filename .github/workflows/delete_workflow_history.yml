@@ -10,7 +10,8 @@ jobs:
     - name: Delete workflow runs
       uses: MajorScruffy/delete-old-workflow-runs@v0.1.0
       with:
-        repository: JumperBot/Java-SomeUtils
         older-than-seconds: 604800
+        repository: JumperBot/Java-SomeUtils
+        what-if: false
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
