@@ -75,6 +75,7 @@ Should be automatically updated after every commit.
      │   │   ├── bug_report.md
      │   │   └── feature_request.md
      │   ├── Logo.apng
+     │   ├── Rough_demo.gif
      │   ├── pull_request_template.md
      │   └── workflows
      │       ├── code_checker.yml
@@ -96,7 +97,8 @@ Should be automatically updated after every commit.
      │       ├── DynamicArray
      │       │   └── DynamicArray.class
      │       ├── Pattern
-     │       │   └── PatternFinder.class
+     │       │   ├── PatternFinder.class
+     │       │   └── PatternMaker.class
      │       ├── ProgressBar
      │       │   └── ProgressBar.class
      │       └── TerminalMap
@@ -113,6 +115,7 @@ Should be automatically updated after every commit.
              │   └── README.md
              ├── Pattern
              │   ├── PatternFinder.java
+             │   ├── PatternMaker.java
              │   └── README.md
              ├── ProgressBar
              │   ├── ProgressBar.java
