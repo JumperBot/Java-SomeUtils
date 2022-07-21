@@ -135,6 +135,8 @@ public class PatternFinder{
     return getArray();
   }
   public String[][] getArray(){
-    return output;
+    final String[][] copyOf=new String[output.length][2];
+    System.arraycopy(output, 0, copyOf, 0, output.length);
+    return copyOf;
   }
 }

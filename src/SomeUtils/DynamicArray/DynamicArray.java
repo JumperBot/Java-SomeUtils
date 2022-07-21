@@ -78,6 +78,10 @@ public class DynamicArray<T>{
     return returnMe;
   }
   public T[] getRealArray(){
+    final int l=underlyingArr.length;
+    @SuppressWarnings("unchecked")
+    final T[] copyOf=(T[])new Object[l];
+    System.arraycopy(underlyingArr, 0, copyOf, 0, l);
     return underlyingArr;
   }
 }

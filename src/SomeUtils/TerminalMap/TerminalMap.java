@@ -93,7 +93,9 @@ public class TerminalMap{
     return temp;
   }
   public char[][] getMap(){
-    return map;
+    final char[][] copyOf=new char[map.length][map[0].length];
+    System.arraycopy(map, 0, copyOf, 0, map.length);
+    return copyOf;
   }
   public void printMap(){
     printMap(false, false);

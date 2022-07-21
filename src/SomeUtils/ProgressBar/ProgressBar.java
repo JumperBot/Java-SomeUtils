@@ -33,7 +33,7 @@ public class ProgressBar{
     return values[1];
   }
   public int[] getValues(){
-    return values;
+    return new int[]{values[0], values[1]};
   }
   public void setValue(final int newValue){
     values[0]=newValue;
