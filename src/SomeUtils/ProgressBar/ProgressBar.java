@@ -28,6 +28,7 @@ public class ProgressBar{
   //Demo, can be removed if you want to!
   public static void main(String[]a){
     final ProgressBar progress=new ProgressBar(100);
+    progress.setMessage("Showcasing ProgressBar");
     progress.printBar();
     for(int i=0;i<100;i++){
       progress.addValue();
@@ -39,16 +40,16 @@ public class ProgressBar{
   }
   //The actual class, don't remove! (Please)
   final int[] values={0, 0};
-  public ProgressBar(){
-    //SUFFER
-  }
+  final long start;
   public ProgressBar(final int maxVal){
     values[0]=0;
     values[1]=maxVal;
+    start=System.currentTimeMillis();
   }
   public ProgressBar(final int minVal, final int maxVal){
     values[0]=minVal;
     values[1]=maxVal;
+    start=System.currentTimeMillis();
   }
   public int getValue(){
     return values[0];
@@ -61,6 +62,14 @@ public class ProgressBar{
   }
   public void setValue(final int newValue){
     values[0]=newValue;
+  }
+  String mes=null;
+  public void setMessage(final String message){
+    mes=message;
+  }
+  public String getMessage(){
+    if(mes==null)return "";
+    return mes;
   }
   public void addValue(){
     values[0]++;
@@ -80,15 +89,19 @@ public class ProgressBar{
     final int barShown=(int)(percentage/5);
     System.out.print(
       new StringBuilder("[")
+                .append((mes!=null)?new StringBuilder(mes).append("][").toString():"")
                 .append(percentage)
                 .append("%][")
                 .append( fullBar.substring(0, barShown))
                 .append(emptyBar.substring(barShown))
                 .append("][")
-                .append(values[0])
+                .append(String.valueOf(values[0]))
                 .append("/")
-                .append(values[1])
-                .append("]\r")
+                .append(String.valueOf(values[1]))
+                .append("][")
+                .append(String.valueOf(System.currentTimeMillis()-start))
+                .append("ms]")
+                .append("\r")
       .toString()
     );
     if(percentage==100)

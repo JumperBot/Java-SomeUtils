@@ -18,21 +18,11 @@ import SomeUtils.ProgressBar.ProgressBar;
 ---
 
 ```java
-public ProgressBar(); //SUFFER
-```
-
-An unrecommended way of initializing the ProgressBar...
-
-...Since it only provides suffering.
-
----
-
-```java
 public ProgressBar(final int maxVal);
 public ProgressBar(final int minVal, final int maxVal);
 ```
 
-Two recommended ways of initializing the ProgressBar.
+Two ways of initializing the ProgressBar.
 
 ---
 
@@ -42,7 +32,9 @@ public int getMaxValue();
 public int[] getValues();
 ```
 
-Gets either the progress or the max value the ProgressBar can hold...
+Gets the progress or the max value the ProgressBar can hold...
+
+...Or both of them at the same time.
 
 ---
 
@@ -55,6 +47,15 @@ public void deductValue();
 Sets the value of the progress in three different ways...
 
 ...By setting the value yourself, adding or deducting to it.
+
+---
+
+```java
+public void setMessage(final String message);
+public String getMessage();
+```
+
+Sets or gets the message by the side of the progress bar.
 
 ---
 
