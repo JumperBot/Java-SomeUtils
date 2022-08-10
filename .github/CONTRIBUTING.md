@@ -2,7 +2,7 @@
 
 We (as one entity) salute you for reading this contributing guide.
 
-Any contribution you make will be reflected/commited to this repository, so be careful on what you're doing! 
+Any contribution you make will be reflected/committed to this repository, so be careful on what you're doing! 
 
 Read our [Code of Conduct](./CODE_OF_CONDUCT.md) to keep our community approachable and respectable.
 
@@ -28,13 +28,13 @@ The first and most important step is getting to know yourself and your setup:
     - Can you understand it's syntax ***properly***?
     - Can you solve common problems that occur when writing a program?
       - Have you experienced coding alone with no help?
-      - Do you know when and how to ask for help on sites like [StackOverflow](https://stackoverflow.com/)? 
+      - Do you know when and how to ask for help on sites like [Stack Overflow](https://stackoverflow.com/)? 
     - Do you have your `Java` environment setup ready?
-      - Do you have a JDK that supports `Java-8` and above? *(persionally using Java-11)*
+      - Do you have a JDK that supports `Java-8` and above? *(personally using Java-11)*
         - Check it with `java --version` on your terminal.
   - Do you know how to use `Git` or `GitHub` ***properly***?
 
-Next steop would be ***\*drum-roll\**** forking the repository!
+Next step would be ***\*drum-roll\**** forking the repository!
   - You can now write the actual code.
 
 ### What to do when writing the code
