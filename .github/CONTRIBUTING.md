@@ -101,6 +101,8 @@ Should be automatically updated after every commit.
      │       │   └── PatternMaker.class
      │       ├── ProgressBar
      │       │   └── ProgressBar.class
+     │       ├── Storage
+     │       │   └── Inventory.class
      │       └── TerminalMap
      │           └── TerminalMap.class
      └── src
@@ -119,6 +121,9 @@ Should be automatically updated after every commit.
              │   └── README.md
              ├── ProgressBar
              │   ├── ProgressBar.java
+             │   └── README.md
+             ├── Storage
+             │   ├── Inventory.java
              │   └── README.md
              └── TerminalMap
                  ├── README.md
