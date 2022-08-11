@@ -72,7 +72,6 @@ public class Inventory<Item>{
 	}
 	// The Class itself
 	final Item[] storage;
-	final String[] attributes;
 	final int[] itemCount;
 	final int length;
 	final int half;
@@ -80,7 +79,6 @@ public class Inventory<Item>{
 	public Inventory(final int size){
 		length=size;
 		storage=(Item[])new Object[length];
-		attributes=new String[length];
 		itemCount=new int[length];
 		half=length/2+1;
 	}
@@ -109,24 +107,6 @@ public class Inventory<Item>{
 						dropAll(i);
 						break;
 					}
-	}
-
-	public void setAttribute(final String in, final int ind){
-		attributes[ind]=in;
-	}
-	public void setAttributes(final String[] in){
-		System.arraycopy(
-			in, 0, attributes, 0, (in.length>length)?length:in.length
-		);
-	}
-
-	public String getAttribute(final int ind){
-		return attributes[ind];
-	}
-	public String[] getAttributes(){
-		final String[] copy=new String[length];
-		System.arraycopy(attributes, 0, copy, 0, length);
-		return copy;
 	}
 
 	private boolean store(final Item item, final int ind, final boolean cycle){

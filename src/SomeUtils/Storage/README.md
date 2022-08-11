@@ -47,28 +47,6 @@ Make the scattered items in the Inventory stack altogether...
 ---
 
 ```java
-public void setAttribute(final String in, final int ind);
-public void setAttributes(final String[] in);
-```
-
-Set item descriptions / attributes individually...
-
-...Or set them all in one go.
-
----
-
-```java
-public String getAttribute(final int ind);
-public String[] getAttributes();
-```
-
-Get an item's description / attribute...
-
-...Or just get them all in one swing.
-
----
-
-```java
 public boolean store(final Item item, final int ind);
 public void storeMultiple(final Item... items);
 ```
