@@ -66,7 +66,11 @@ public class Timer{
     );
   }
   //Watcher is private.
-  TimerWatcher watcher;
+  TimerWatcher watcher=new TimerWatcher(){
+    public void hasStopped(boolean stopped){}
+    public void timeElapsed(long nano, long millis, long seconds){}
+    public void timeLeft(long timeLeft){}
+	};
   public void stopAfter(final long duration, final int unit){
     //No need to call #start() before #stopAfter().
     start();
@@ -78,9 +82,7 @@ public class Timer{
         getTimeElapsed(millis),
         getTimeElapsed(seconds)
       );
-      watcher.timeLeft(
-        endAt-(getTimeElapsed(unit)+start)
-      );
+      watcher.timeLeft(endAt-(getTimeElapsed(unit)+start));
     }
     watcher.hasStopped(true);
     watcher.timeElapsed(
@@ -88,9 +90,7 @@ public class Timer{
       getTimeElapsed(millis),
       getTimeElapsed(seconds)
     );
-    watcher.timeLeft(
-      0
-    );
+    watcher.timeLeft(0);
   }
   public void setWatcher(final TimerWatcher watcher){
     this.watcher=watcher;
@@ -98,7 +98,6 @@ public class Timer{
   public interface TimerWatcher{
     public void hasStopped(boolean stopped);
     public void timeElapsed(long nano, long millis, long seconds);
-    //Returns time left using certain "unit" given.
     public void timeLeft(long timeLeft);
   }
 }

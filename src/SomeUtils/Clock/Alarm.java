@@ -57,16 +57,29 @@ public class Alarm{
     );
   }
   //Watcher is private.
-  AlarmWatcher watcher;
+  AlarmWatcher watcher=new AlarmWatcher(){
+		public void isRinging(final boolean ringing){}
+	};
   public void alarmAfter(final long duration, final int unit, final AlarmWatcher watcher){
     start();
     new Thread(new Runnable(){
       @Override
       public void run(){
         final long endAt=start+duration;
-        while(getTimeElapsed(unit)+start<endAt){
+        while(getTimeElapsed(unit)+start<endAt)
           watcher.isRinging(false);
-        }
+        watcher.isRinging(true);
+      }
+    }).start();
+  }
+  public void alarmAfter(final long duration, final int unit){
+    start();
+    new Thread(new Runnable(){
+      @Override
+      public void run(){
+        final long endAt=start+duration;
+        while(getTimeElapsed(unit)+start<endAt)
+          watcher.isRinging(false);
         watcher.isRinging(true);
       }
     }).start();

@@ -53,7 +53,10 @@ Not recommended to be called manually; it is automatically called.
 
 ```java
 public void alarmAfter(final long duration, final int unit, final AlarmWatcher watcher);
+public void alarmAfter(final long duration, final int unit);
 ```
+
+The only thing an alarm clock should do.
 
 ---
 
