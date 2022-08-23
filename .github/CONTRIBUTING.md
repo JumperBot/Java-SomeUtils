@@ -88,10 +88,13 @@ Should be automatically updated after every commit.
      │       ├── Clock
      │       │   ├── Alarm$1.class
      │       │   ├── Alarm$2.class
+     │       │   ├── Alarm$3.class
+     │       │   ├── Alarm$4.class
      │       │   ├── Alarm$AlarmWatcher.class
      │       │   ├── Alarm.class
      │       │   ├── Stopwatch.class
      │       │   ├── Timer$1.class
+     │       │   ├── Timer$2.class
      │       │   ├── Timer$TimerWatcher.class
      │       │   └── Timer.class
      │       ├── DynamicArray
